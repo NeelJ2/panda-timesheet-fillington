@@ -1,0 +1,34 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment and secret files
+.env
+client_secret.json
+credentials.json
+key.pem
+cert.pem
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore Flask session files
+flask_session/
+
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+tempCodeRunnerFile.py
+
+# If using any virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node modules (if any frontend dependencies are included)
+node_modules/
