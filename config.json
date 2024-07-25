@@ -1,0 +1,9 @@
+{
+    "start_row": 4,
+    "columns": {
+        "date_col": 1,
+        "hours_col": 2,
+        "location_col": 3,
+        "position_col": 4
+    }
+}
